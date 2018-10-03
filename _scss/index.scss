@@ -1,0 +1,33 @@
+/*=============================
+=            GLOBALS            =
+=============================*/
+@import 'global';
+
+/*=====  End of GLOBALS  ======*/
+/*=======================================
+=            LOGIN OUT FORM            =
+=======================================*/
+.login-out-form {
+  .card.card-body {
+    background-color: #e9ecef;
+    box-shadow: 2px 2px 6px gray;
+  }
+}
+/*=====  End of LOGIN OUT FROM  ======*/
+
+/** THE BODY ===========================  */
+// ul,
+// menu,
+// dir {
+//   display: block;
+//   list-style-type: disc;
+//   -webkit-margin-before: 1em;
+//   -webkit-margin-after: 1em;
+//   -webkit-margin-start: 0px;
+//   -webkit-margin-end: 0px;
+//   -webkit-padding-start: 0px !important;
+// }
+
+.jumbotron {
+  box-shadow: 2px 2px 6px gray;
+}

@@ -1,0 +1,23 @@
+version: '3'
+services:
+  app:
+    container_name: notepress-docker
+    image: moosedev/notepress:latest
+    restart: always
+    ports:
+      - '9000:8000'
+    links:
+      - mongo
+
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+    restart: always
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
